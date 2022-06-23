@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+section {
+    margin: 20px 0;
+}
+
+section [id$='2'] {
+    background-color: yellow;
+}
+
+div[class] {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+div[class^='ls'] {
+    background-color: skyblue;
+}
+
+div[class*='i'] {
+    background-color: pink;
+}
+
+div[class$='4'] {
+    background-color: black;
+    color: white;
+}
+
+div[class*='e'][class$='4'] {
+    background-color: blue;
+    color: white;
+}
