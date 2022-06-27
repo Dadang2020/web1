@@ -32,7 +32,7 @@ li:hover {
 
 /* 
   display : none; 
-  - 화면에 블록 자체가 생성괴지 않는다.
+  - 화면에 블록 자체가 생성되지 않는다.
     레이아웃에 영향을 미치지 않는다
 
   visibility : hidden;
