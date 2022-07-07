@@ -1,0 +1,31 @@
+* { margin: 0; padding: 0; }
+
+#wrap {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(222,0,255,1) 0%, rgba(173,255,0,1) 50%, rgba(0,241,255,1) 100%);
+
+    animation-name: ball;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#wrap h1 { line-height: 200px; color: white; text-align: center;}
+
+@keyframes ball {
+    from {
+        left: 0;
+        transform: rotate(0deg);
+    }
+    50% {
+        left: 500px;
+        transform: rotate(360deg);
+    }
+    to {
+        left: 0;
+        transform: rotate(0deg);
+    }
+}
